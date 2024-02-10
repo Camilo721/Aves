@@ -8,7 +8,7 @@ package com.mycompany.aves;
  *
  * @author camilo
  */
-public class Gallina extends Ave {
+public class Gallina extends Ave implements Volar{
     
     
     @Override
@@ -16,7 +16,7 @@ public class Gallina extends Ave {
         System.out.println("Grasna");
     }
     
-    public void Vuela(){
+    public void vuela(){
         System.out.println("Vuela con alas");
     }
 }
