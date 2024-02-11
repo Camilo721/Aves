@@ -4,17 +4,17 @@
  */
 package com.mycompany.aves;
 
+
 /**
  *
  * @author camilo
  */
-public class AvesTruz extends Ave {
+public class Grasnido implements TipoSonido{
     
-    
-     public AvesTruz(){
-      
-         tipoSonido = new SinCanto();
-         tipoVuelo  = new SinVuelo();
-     }
    
+    
+    public void makeSound(){
+        
+        System.out.println("Grasnando");
+    }
 }

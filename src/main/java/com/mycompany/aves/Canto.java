@@ -8,13 +8,11 @@ package com.mycompany.aves;
  *
  * @author camilo
  */
-public class AvesTruz extends Ave {
+public class Canto implements TipoSonido{
     
+    public void makeSound(){
     
-     public AvesTruz(){
-      
-         tipoSonido = new SinCanto();
-         tipoVuelo  = new SinVuelo();
-     }
-   
+    System.out.println("estoy cantando");
+    
+    }
 }

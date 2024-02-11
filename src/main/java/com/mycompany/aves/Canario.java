@@ -8,15 +8,14 @@ package com.mycompany.aves;
  *
  * @author camilo
  */
-public class Canario extends Ave implements Volar{
+public class Canario extends Ave{
     
     
-    @Override
-    public void makeSound(){
-        System.out.println("Canta");
-    }
-   
-    public void vuela(){
-        System.out.println("Vuela con alas");
+    
+    
+    public Canario(){
+        
+        tipoSonido = new Canto();
+        tipoVuelo  = new VueloConAlas();
     }
 }

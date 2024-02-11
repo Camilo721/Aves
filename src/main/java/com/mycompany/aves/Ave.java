@@ -4,12 +4,25 @@
  */
 package com.mycompany.aves;
 
+import com.mycompany.aves.TipoSonido;
 /**
  *
  * @author camilo
  */
 public abstract class Ave {
     
-    public abstract void makeSound();
+    TipoSonido tipoSonido;
+    TipoVuelo tipoVuelo;
     
+    //metodos de una ave
+    
+    public void realizaVuelo(){
+        
+        tipoVuelo.vuelo();
+    }
+    
+    public void realizaSonido(){
+        
+        tipoSonido.makeSound();
+    }
 }
