@@ -13,8 +13,9 @@ public class AvesTruz extends Ave {
     
      public AvesTruz(){
       
-         tipoSonido = new SinCanto();
-         tipoVuelo  = new SinVuelo();
+         this.tipoSonido= (new SinCanto());
+         this.tipoVuelo = (new SinVuelo());      
+           
      }
    
 }

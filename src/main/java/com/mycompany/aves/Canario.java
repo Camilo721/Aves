@@ -15,7 +15,7 @@ public class Canario extends Ave{
     
     public Canario(){
         
-        tipoSonido = new Canto();
-        tipoVuelo  = new VueloConAlas();
+        this.tipoSonido= (new Canto());
+        this.tipoVuelo = (new VueloConAlas());
     }
 }

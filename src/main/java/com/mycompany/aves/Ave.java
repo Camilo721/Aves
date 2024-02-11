@@ -16,6 +16,15 @@ public abstract class Ave {
     
     //metodos de una ave
     
+    
+    
+    public void setTipoSonido(TipoSonido tipoSonido){
+        this.tipoSonido= tipoSonido;
+    }
+    
+    public void setTipoVuelo(TipoVuelo tipoVuelo){
+        this.tipoVuelo= tipoVuelo;
+    }
     public void realizaVuelo(){
         
         tipoVuelo.vuelo();

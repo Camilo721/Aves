@@ -1,23 +1,23 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-
 package com.mycompany.aves;
 
- 
 
+import org.junit.Assert;
 /**
  *
  * @author camilo
  */
-public class Aves {
-
-    public static void main(String[] args) {
+public class TestCase {
+    
+    public void canarioTestCase(){
+        Canario canario = new Canario();
+        Assert.assertNotNull(canario);
         
-        Canario canario= new Canario();
-        
-         System.out.println("canario realizaVuelo");
-         canario.realizaVuelo();
+        System.out.println("canario realizaVuelo");
+        canario.realizaVuelo();
         
         System.out.println("canario realizaSonido");
         canario.realizaSonido();
@@ -29,5 +29,5 @@ public class Aves {
         canario.realizaSonido();
     }
     
-   
+    
 }

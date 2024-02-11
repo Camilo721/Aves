@@ -1,0 +1,14 @@
+com\mycompany\aves\TestCase.class
+com\mycompany\aves\Aves.class
+com\mycompany\aves\SinVuelo.class
+com\mycompany\aves\Grasnido.class
+com\mycompany\aves\TipoSonido.class
+com\mycompany\aves\Gallina.class
+com\mycompany\aves\AvesTruz.class
+com\mycompany\aves\SinCanto.class
+com\mycompany\aves\Ave.class
+com\mycompany\aves\TipoVuelo.class
+com\mycompany\aves\VueloConAlas.class
+com\mycompany\aves\Volar.class
+com\mycompany\aves\Canto.class
+com\mycompany\aves\Canario.class
