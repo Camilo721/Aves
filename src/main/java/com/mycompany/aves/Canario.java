@@ -4,6 +4,7 @@
  */
 package com.mycompany.aves;
 
+import com.mycompany.aves.Volar;
 /**
  *
  * @author camilo
@@ -16,6 +17,7 @@ public class Canario extends Ave implements Volar{
         System.out.println("Canta");
     }
    
+    @Override
     public void vuela(){
         System.out.println("Vuela con alas");
     }
